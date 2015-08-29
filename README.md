@@ -7,3 +7,8 @@ formatting and proof formatting, and perhaps even connect to an external tool
 to work as a Metamath proof assistant (just like
 [`idris.vim`](https://github.com/idris-hackers/idris-vim) calls `idris
 --client`).
+
+## Installation
+
+Just copy the `.vim` directory to your `$HOME/.vim` directory, keeping the
+directory structure.
