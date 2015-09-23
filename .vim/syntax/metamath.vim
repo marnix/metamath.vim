@@ -3,6 +3,7 @@ if exists("b:current_syntax")
 endif
 
 syn match metamathKeyword '\$[apfe]' skipwhite
+syn match metamathBlock '\$[{}]'
 syn match metamathUnlabeledKeyword '\$[d=.cv]' skipwhite
 syn region metamathComment start="\$(" end="\$)" contains=metamathIllegalCharacter
 syn region metamathInclude start="\$\[" end="\$\]"
@@ -17,3 +18,4 @@ hi def link metamathInclude PreProc
 hi def link metamathLabelDeclaration Identifier
 hi def link metamathIllegalCharacter Error
 hi def link metamathIllegalKeyword Error
+hi def link metamathBlock Statement
